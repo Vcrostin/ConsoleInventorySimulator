@@ -1,0 +1,3 @@
+{ ident: "eagle_eye", filters: [{"level", ">=", 4}, { "type", Range}], type: DamageBuff, value: 10 },  
+{ ident: "donatium_steel", filters: [{"rarity", Rare}], type: ProtectionBuff, value: 15 },  
+{ ident: "rage_drink", filters: [{"type", Range}, {"type", Melee}], type: SpeedBuff, value: 0.4 } 
